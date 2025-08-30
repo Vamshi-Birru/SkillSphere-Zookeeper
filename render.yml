@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: zookeeper
+    env: docker
+    plan: free
+    autoDeploy: true
+    ports:
+      - 2181
